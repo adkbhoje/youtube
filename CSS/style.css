@@ -1,0 +1,114 @@
+body{
+  background-color: #4AC5E1;
+}
+h1, h2, h4{
+  text-align: center;
+  color: #077098;
+}
+h4{
+  color: #2f0798;
+}
+
+/* nav */
+nav, footer{
+  border: 2px solid #072798;
+  background-color: #072798;
+  border-radius: 10px;
+}
+  nav ul{
+    width: 378px;
+    margin-left: auto;
+    margin-right: auto;
+    list-style-type: none;
+  }
+    nav ul li{
+      display: inline;
+      padding-left: 25px;
+    }
+      nav ul li a{
+        display: inline;
+        font-size: 15pt;
+        color: #fff;
+        text-decoration: none;
+      }
+p{
+  color: #046543;
+  font-size: 14pt;
+  text-align: center;
+}
+
+/* book now button */
+#book_now{
+  width: 100px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: #072798;
+  border: 2px solid #072798;
+  color: #fff;
+  font-size: 12pt;
+  font-weight: bold;
+  margin-left: 44%;
+}
+img{
+  height: 350px;
+  width: 800px;
+  display: block;
+  padding-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* about */
+.about_site, .book_vacay, .contact_us{
+  /*border: 2px solid green;*/
+  margin-top: 15px;
+}
+
+.book_vacay, .contact_us{
+  height: 500px;
+  width: 425px;
+  display: inline-block;
+}
+
+  .book_form{
+    width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+    label{
+      display: block;
+      font-size: 13pt;
+      font-weight: bold;
+      color: #fff;
+      margin-top: 15px;
+    }
+      input{
+        width: 300px;
+        height: 20px;
+        border-radius: 10px;
+        border: 1px solid #fff;
+        margin-top: 6px;
+        background-color: #079886;
+      }
+      #submit_btn{
+        margin-left: 115px;
+        margin-top: 20px;
+        border-radius: 4px;
+        width: 80px;
+      }
+.contact_us{
+  width: 585px;
+  /*height: 425px;*/
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 80px;
+  float: right;
+
+}
+
+footer{
+  clear: both;
+}
+  #copyright{
+    color: #079886;
+  }
